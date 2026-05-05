@@ -1,7 +1,7 @@
 name: Quality Check
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ master ] # Gunakan master
 
 jobs:
   check:
